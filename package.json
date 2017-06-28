@@ -1,0 +1,23 @@
+{
+  "name": "lbc-bot",
+  "version": "1.0.0",
+  "description": "A simple bot to fetch leboncoin.com's affers and filter them based on some criterias.",
+  "scripts": {
+    "start": "tsc && node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Supamiu/lbc-bot.git"
+  },
+  "author": "Supamiu <contact@flavien-normand.fr>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Supamiu/lbc-bot/issues"
+  },
+  "homepage": "https://github.com/Supamiu/lbc-bot#readme",
+  "dependencies": {
+    "@types/node": "^8.0.4",
+    "leboncoin-api": "0.0.11",
+    "typescript": "^2.4.1"
+  }
+}
